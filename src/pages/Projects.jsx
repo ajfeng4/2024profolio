@@ -4,9 +4,9 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
-import lift from "../assets/projects/lift.png";
+import hungie from "../assets/projects/Hungie.png";
 import dystopia from "../assets/projects/Dystopiaaaa.png";
-import kickstart from "../assets/projects/kickstart.png";
+import brighter from "../assets/projects/Brighter.png";
 
 const Projects = () => {
   return (
@@ -22,12 +22,12 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={lift}
+              imgPath={hungie}
               isBlog={false}
               title="Hungie AI"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
-              ghLink="https://github.com/19sajib/lift-buddy"
-              demoLink="https://webdev.cse.buffalo.edu/hci/teams/zoomers"
+              description="Invovled in building an AI powered food buddy built to recommend and cater meals to meet the specific taste buds and preferences of users. Utilizing comprehensive alogrithms and machine learning models to serve up specific recommendations to meet the user's pallete. Developed front-end with clean and efficent user interfaces using Typescript,React Native and Tailwind CSS. Processed and managed backend with user perferences using Python and Flask. Ran the mobile IOS/Andriod environment using Expo Go. Managed and built the app's database and authentication using Firebase, Google Cloud and Sendgrid"
+              ghLink=""
+              demoLink="https://www.hungieapp.com/"
             />
           </Col>
 
@@ -36,8 +36,8 @@ const Projects = () => {
               imgPath={dystopia}
               isBlog={false}
               title="Dystopia"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
-              ghLink="https://github.com/19sajib/social-media"
+              description="Responsive social media application that gives users the full power to shape their social media landscape. Utilized JavaScript,Typescript,CSS and HTML to build a clean and responsive front-end. Dystopia is available not only through the web but also available and compatible on mobile. Utilized Swagger API to manage the backend database and to fetch and modify user attributes. Collaborated closely with a team of four software engineers to meet weekly objectives and maintain a strict and effective Agile enivronment meeting the requirements set by the Project Manager "
+              ghLink=""
               demoLink="https://webdev.cse.buffalo.edu/hci/teams/zoomers"
             />
           </Col>
@@ -45,12 +45,12 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={kickstart}
+                imgPath={brighter}
                 isBlog={false}
                 title="Brighterspace"
-                description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
-                ghLink="https://github.com/19sajib/mern-stack-ecommerce"
-                demoLink="https://webdev.cse.buffalo.edu/hci/teams/zoomers"
+                description="An interactive educational platform bridging the disconnect between learning and teaching. Utilized JavaScript,Typescript,React.js for front-end developement to build clean and scalabe screens and pages. Utilized PHP to manage the back-end database, to fetch and modify student data and retreive and display user atrributes. Utilized Apache to host the platform. Worked in an agile environment and meet weekly sprints and objectives set by the project manager"
+                ghLink=""
+                demoLink="https://www-student.cse.buffalo.edu/CSE442-542/2024-Spring/cse-442e/"
             />
           </Col>
 
