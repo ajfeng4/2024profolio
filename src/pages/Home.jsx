@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from '../assets/about.png'
+import char from '../assets/People of Brooklyn - Torso.png'
 import Particle from '../components/Particle';
 import About from '../components/Home/About';
 import Type from '../components/Home/Type';
@@ -32,10 +33,10 @@ const Home = () => {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={char}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ marginLeft: "30px",maxHeight: "450px", }}
               />
             </Col>
           </Row>
