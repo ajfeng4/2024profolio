@@ -4,8 +4,8 @@ import {
   AiFillGithub,
   AiOutlineTwitter
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import {FaHandshake, FaLinkedinIn} from "react-icons/fa";
+import {SiGmail, SiLeetcode} from "react-icons/si";
 import logo from "../../assets/sLogo.png";
 
 const Footer = () => {
@@ -15,63 +15,62 @@ const Footer = () => {
       <Container fluid className="footer">
         <Row>
           <Col md="4" className="footer-copywright">
-            <span>Dedicated to creating impactful solutions!</span>
+            <span>Updated July 26th, 2024</span>
           </Col>
           <Col md="4" className="footer-copywright">
-            <span>Copyright © {year}</span>
-            <img src={logo} className="img-fluid logo" alt="brand" />
+            <span>ajfeng@buffalo.edu</span>
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                  href="https://github.com/19sajib"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="github"
+                    href="https://github.com/ajfeng4"
+                    style={{color: "white"}}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="github"
                 >
-                  <AiFillGithub />
+                  <AiFillGithub/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/19sajib"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="twitter"
+                    href="https://www.linkedin.com/in/ajfeng/"
+                    style={{color: "white"}}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="linkedin"
                 >
-                  <AiOutlineTwitter />
+                  <FaLinkedinIn/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/19sajib/"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="linkedin"
+                    href="https://app.joinhandshake.com/profiles/35389210"
+                    style={{color: "white"}}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="linkedin"
                 >
-                  <FaLinkedinIn />
+                  <FaHandshake/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://leetcode.com/19sajib/"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="leetcode"
+                    href="ajfengcs@gmail.com"
+                    style={{color: "white"}}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="leetcode"
                 >
-                  <SiLeetcode />
+                  <SiGmail/>
                 </a>
               </li>
             </ul>
           </Col>
         </Row>
       </Container>
-    );  
+    );
 }
 
 export default Footer

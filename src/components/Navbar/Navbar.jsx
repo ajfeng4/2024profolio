@@ -32,9 +32,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        {/*<Navbar.Brand href="/" className="d-flex">*/}
+        {/*  <img src={logo} className="img-fluid logo" alt="brand" />*/}
+        {/*</Navbar.Brand>*/}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -76,25 +76,25 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <FaFile style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
+            {/*<Nav.Item>*/}
+            {/*  <Nav.Link*/}
+            {/*    as={Link}*/}
+            {/*    to="/resume"*/}
+            {/*    onClick={() => updateExpanded(false)}*/}
+            {/*  >*/}
+            {/*    <FaFile style={{ marginBottom: "2px" }} /> Resume*/}
+            {/*  </Nav.Link>*/}
+            {/*</Nav.Item>*/}
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/contact"
-                onClick={() => updateExpanded(false)}
-              >
-                <FaMailBulk style={{ marginBottom: "2px" }} /> Contact Me
-              </Nav.Link>
-            </Nav.Item>
+            {/*<Nav.Item>*/}
+            {/*  <Nav.Link*/}
+            {/*    as={Link}*/}
+            {/*    to="/contact"*/}
+            {/*    onClick={() => updateExpanded(false)}*/}
+            {/*  >*/}
+            {/*    <FaMailBulk style={{ marginBottom: "2px" }} /> Contact Me*/}
+            {/*  </Nav.Link>*/}
+            {/*</Nav.Item>*/}
 
             {/* <Nav.Item className="fork-btn">
               <Button

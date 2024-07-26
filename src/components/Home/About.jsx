@@ -8,7 +8,7 @@ import {
   AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import {SiGmail, SiHandshake, SiLeetcode} from "react-icons/si";
 
 
 
@@ -77,46 +77,46 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="github"
+                        href="https://github.com/ajfeng4"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon-colour  home-social-icons"
+                        aria-label="github"
                     >
-                      <AiFillGithub />
+                      <AiFillGithub/>
                     </a>
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="twitter"
+                        href="https://www.linkedin.com/in/ajfeng/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon-colour  home-social-icons"
+                        aria-label="linkedin"
                     >
-                      <AiOutlineTwitter />
+                      <FaLinkedinIn/>
                     </a>
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="linkedin"
+                        href="https://app.joinhandshake.com/profiles/35389210"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon-colour home-social-icons"
+                        aria-label="instagram"
                     >
-                      <FaLinkedinIn />
+                      <SiHandshake/>
                     </a>
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://leetcode.com/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                      aria-label="instagram"
+                        href="ajfengcs@gmail.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon-colour home-social-icons"
+                        aria-label="instagram"
                     >
-                      <SiLeetcode />
+                      <SiGmail/>
                     </a>
                   </li>
                 </ul>
@@ -124,8 +124,8 @@ const About = () => {
             </Row>
           </Container>
         </Container>
-      );
-    
+    );
+
 }
 
 export default About
