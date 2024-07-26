@@ -21,21 +21,20 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hello!, my name is <span className="yellow">Alex Feng </span>
+                 and I'm from <span className="yellow"> Brooklyn, New York.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                  I'm currently a junior studying at <span className="yellow">SUNY University at Buffalo.</span> Currently double majoring in <span className="yellow">Computer Science and Management Information Systems</span>
                 <br />
                 <br />
                   As a
-                  <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tackling new challenges and continuously expanding my skillset.
+                  <b className="yellow"> Full-Stack </b>Software Engineer,
+                  I enjoy learning new languages and building new projects to expand my skillset.
                   <br />
-                  <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                  <br />I've worked frequently with
+                    <b className="yellow"> Javascript, Typescript and PHP </b>
+                    as well as have knowledge in programming languages such as Java, Python, Scala and C++
                   <br />
                   <br />
                   I have a passion for working
