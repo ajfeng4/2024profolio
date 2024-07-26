@@ -7,43 +7,69 @@ import {
   DiGit,
 } from "react-icons/di";
 import {
-  SiMaterialui,
-  SiGraphql,
-  SiSolidity,
-  SiRedux,
-  SiMongodb,
-  SiHtml5
+    SiMaterialui,
+    SiGraphql,
+    SiSolidity,
+    SiRedux,
+    SiMongodb,
+    SiHtml5,
+    SiCss3,
+    SiTypescript,
+    SiJavascript,
+    SiSass,
+    SiTailwindcss,
+    SiPython,
+    SiJava,
+    SiScala,
+    SiFlask,
+    SiC,
+    SiCplusplus, SiPhp, SiPowershell
 } from "react-icons/si";
 
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiJavascript />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiTypescript />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiReact />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiReact />
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiCss3 />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiSass />
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiPython />
+      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiPhp />
+        </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiScala />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <SiC />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

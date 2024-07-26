@@ -38,7 +38,7 @@ const About = () => {
                   <br />
                   <br />
                   I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
+                  with cloud databases, my favorite is <b className="yellow">Firebase,</b> and
                   <i>
                     <b className="yellow">
                       {" "}
@@ -47,15 +47,15 @@ const About = () => {
                   </i>
                   &nbsp; like
                   <i>
-                    <b className="yellow"> React.js</b>
+                    <b className="yellow"> React, React Native and Expo</b>
                   </i>
                   <br />
                   <br />
-                  I am also interested in building new
+                  In my free time I like to build and tinker with
                   <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Artificial Intelligence.</b>
+                    <b className="yellow"> Mobile Apps and Web Applications, </b>
+                    as well as read and build environments related to
+                    <b className="yellow"> Cybersecurity.</b>
                   </i>
                   <br />
                   
