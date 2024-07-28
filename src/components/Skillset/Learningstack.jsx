@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-    SiMongodb, SiFirebase, SiPostgresql, SiSupabase, SiAwsamplify, SiAmazon, SiGo, SiSwift
+    SiMongodb, SiFirebase, SiPostgresql, SiSupabase, SiAwsamplify, SiAmazon, SiGo, SiSwift, SiRuby
 } from "react-icons/si";
 
 const Learningstack = () => {
@@ -18,6 +18,9 @@ const Learningstack = () => {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiGo/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiRuby/>
             </Col>
 
         </Row>
